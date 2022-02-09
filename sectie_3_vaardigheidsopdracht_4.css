@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+.foto {
+    color: #ff0000;
+}
+
+.links {
+    color: #0000ff;
+}
+
+h3 {
+    color: #00ff00;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+p {
+    color: #0000ff;
+}
+
+.Tiger {
+    font-size: 60px;
+}

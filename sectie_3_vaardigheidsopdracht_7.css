@@ -1,0 +1,32 @@
+div {
+    float: left;
+    padding: 50px;
+    width: 25%;
+}
+.box1 {
+    background: #ffff00;
+}
+.box2 {
+    background: #ff0000;
+}
+.box3 {
+    background: #0000ff;
+}
+.box4 {
+    background: #800080;
+}
+.box5 {
+    background: #ffffff;
+}
+.box6 {
+    background: #ffa500;
+}
+.box7 {
+    background: #006400;
+}
+.box8 {
+    background: #00008B;
+}
+.box9 {
+    background: #aa336a;
+}
