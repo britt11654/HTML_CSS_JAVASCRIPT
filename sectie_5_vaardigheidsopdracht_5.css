@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+}
+
+.img {
+    background-position: cover;
+    height: 400px;
+    width: 100%;
+}
