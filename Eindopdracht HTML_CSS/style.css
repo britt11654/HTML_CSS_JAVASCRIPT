@@ -1,0 +1,89 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navheader {
+    padding: 0.2rem 1rem;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.signupbutton {
+    border: 2px solid #EE6C4D;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+}
+
+.signupbutton a {
+    color: #EE6C4D;
+}
+
+.signupbutton:hover {
+    background-color: #EE6C4D;
+}
+
+.signupbutton a:hover {
+    color: #293241;
+}
+
+.loginbutton {
+    border: 2px solid #EE6C4D;
+    background-color: #EE6C4D;
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+}
+
+.loginbutton a {
+    color: #293241;
+}
+
+.loginbutton:hover {
+    border: 2px solid #EE6C4D;
+    background-color: #fff;
+}
+
+.loginbutton a:hover {
+    color: #EE6C4D;
+}
+
+.signupform {
+    text-align: center;
+    padding: 20px;
+}
+
+.labelsignup {
+    display: block;
+}
+
+footer {
+    background-color: #293241;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #e0fbfc;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+footer label {
+    color: #e0fbfc;
+}
