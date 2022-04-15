@@ -16,6 +16,10 @@ body {
     padding: 0.2rem 1rem;
 }
 
+.navheader:hover {
+    text-decoration: underline;
+}
+
 .header a {
     text-decoration: none;
 }
