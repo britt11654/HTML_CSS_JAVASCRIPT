@@ -1,10 +1,13 @@
 * {
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0px;
 }
+
+/* NAV BAR */
 
 .header {
     list-style-type: none;
@@ -62,17 +65,112 @@ body {
     color: #EE6C4D;
 }
 
-.signupform {
+/* SIGN UP PAGE */
+
+.signup {
     text-align: center;
-    padding: 20px;
+}
+
+.signupform {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+}
+
+.signupusername {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.signupemail {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.signuppassword {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.signupformbutton {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.signupformbutton button {
+    border: 1px solid #e0fbfc;
+    border-radius: 3rem;
+    padding: 10px 20px;
+    background-color: #e0fbfc;
+    font-size: 20px;
+}
+
+.signupformbutton button:hover {
+    background-color: #293241;
+    color: #e0fbfc;
 }
 
 .labelsignup {
     display: block;
 }
 
+/* LOGIN PAGE */
+
+.labellogin {
+    display: block;
+}
+
+.loginform {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+}
+
+.usernamelogin {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.passwordlogin {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.loginformbutton {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.loginformbutton button {
+    border: 1px solid #e0fbfc;
+    border-radius: 3rem;
+    padding: 10px 20px;
+    background-color: #e0fbfc;
+    font-size: 20px;
+}
+
+.loginformbutton button:hover {
+    background-color: #293241;
+    color: #e0fbfc;
+}
+
+.login {
+    text-align: center;
+}
+
+/* FOOTER */
+
 footer {
     background-color: #293241;
+    padding: 0;
 }
 
 footer ul {
@@ -91,3 +189,141 @@ footer ul a:hover {
 footer label {
     color: #e0fbfc;
 }
+
+/* IMAGE PAGE */
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imghobby {
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+    transition: all .5s linear .2s;
+
+}
+
+.imghobby:hover {
+    width: 31rem;
+    height: 31rem;
+}
+
+/* ABOUT US PAGE */
+
+.aboutustimeline {
+    background-color: #293241;
+}
+
+.timeline {
+    position: relative;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #E0FBFC;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.aboutuscontainer {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.aboutuscontainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #e0fbfc;
+    border: 4px solid #EE6C4D;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #e0fbfc;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #e0fbfc;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #e0fbfc;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e0fbfc transparent transparent;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: #e0fbfc;
+    position: relative;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .aboutuscontainer {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .aboutuscontainer::before {
+        left: 60px;
+        border: medium solid #e0fbfc;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #e0fbfc transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+/* HOME PAGE */

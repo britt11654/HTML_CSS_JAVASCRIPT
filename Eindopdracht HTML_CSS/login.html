@@ -25,17 +25,22 @@
         </nav>
     </header>
     <section>
-        <h1>Login</h1>
-        <form action="">
-            <div>
-                <label for="usernameLogin">Username</label>
-                <input type="text" id="usernameLogin" placeholder="username" required>
-            </div>
-            <div>
-                <label for="passwordLogin">Password</label>
-                <input type="password" name="password" id="passwordLogin" placeholder="password" required>
-            </div>
-        </form>
+        <h1 class="login">Login</h1>
+        <div class="loginform">
+            <form action="">
+                <div class="usernamelogin">
+                    <label for="usernameLogin" class="labellogin">Username</label>
+                    <input type="text" id="usernameLogin" placeholder="username" required>
+                </div>
+                <div class="passwordlogin">
+                    <label for="passwordLogin" class="labellogin">Password</label>
+                    <input type="password" name="password" id="passwordLogin" placeholder="password" required>
+                </div>
+                <div class="loginformbutton">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
     </section>
     <footer>
         <ul>
@@ -47,23 +52,6 @@
             <li><a href="signup.html">Sign Up</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
-        <form action="">
-            <div>
-                <label for="nameFooter">Name</label>
-                <input type="text" id="nameFooter" placeholder="name">
-            </div>
-            <div>
-                <label for="emailFooter">Email</label>
-                <input type="email" name="email" id="emailFooter" placeholder="email" required>
-            </div>
-            <div>
-                <label for="messageFooter">Message</label>
-                <input type="text" id="messageFooter" placeholder="message" required>
-            </div>
-            <div>
-                <button>Send</button>
-            </div>
-        </form>
     </footer>
 </body>
 
