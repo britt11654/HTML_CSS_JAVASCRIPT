@@ -170,11 +170,12 @@ body {
 
 footer {
     background-color: #293241;
-    padding: 0;
+    padding: 7px;
 }
 
 footer ul {
     list-style-type: none;
+    text-align: center;
 }
 
 footer ul a {
@@ -198,6 +199,10 @@ footer label {
 }
 
 /* ABOUT US PAGE */
+
+.aboutus {
+    text-align: center;
+}
 
 .timeline-header {
     color: #fff;
@@ -367,7 +372,11 @@ footer label {
     background-color: #555;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+    header nav {}
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
     .column {
         width: 100%;
         display: block;
@@ -400,7 +409,7 @@ footer label {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
     .column {
         width: 100%;
         display: block;
@@ -433,8 +442,6 @@ footer label {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
-
-@media only screen and (min-width: 1200px) {}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
