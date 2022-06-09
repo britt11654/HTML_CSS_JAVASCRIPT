@@ -372,9 +372,7 @@ footer label {
     background-color: #555;
 }
 
-@media screen and (max-width: 400px) {
-    header nav {}
-}
+@media screen and (max-width: 400px) {}
 
 @media screen and (min-width: 401px) and (max-width: 600px) {
     .column {
