@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 15px 0;
+    flex: 16.666%;
+    text-align: center;
+}
+
+#home {
+    background-color: red;
+}
+
+#diensten {
+    background-color: blue;
+}
+
+#producten {
+    background-color: purple;
+}
+
+#onsteam {
+    background-color: yellow;
+}
+
+#onzewerkwijze {
+    background-color: green;
+}
+
+#contact {
+    background-color: pink;
+}
+
+@media screen and (min-width: 872px) and (max-width: 1132px) {
+    nav a {
+        text-align: center;
+        flex: 33.3%;
+    }
+}
+
+@media screen and (min-width: 455px) and (max-width: 871px) {
+    nav a {
+        text-align: center;
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width:454px) {
+    nav a {
+        flex-direction: column;
+        text-align: center;
+        flex: 100%;
+    }
+}

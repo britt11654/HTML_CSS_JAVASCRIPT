@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.home {
+    background-color: red;
+}
+
+.diensten {
+    background-color: blue;
+}
+
+.producten {
+    background-color: purple;
+}
+
+.onsteam {
+    background-color: yellow;
+}
+
+.onzewerkwijze {
+    background-color: green;
+}
+
+.contact {
+    background-color: pink;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+nav div {
+    padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 454px) {
+    nav {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 455px) and (max-width: 871px) {
+    nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 872px) and (max-width: 1132px) {
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
